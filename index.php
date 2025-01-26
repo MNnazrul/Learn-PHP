@@ -246,10 +246,22 @@ An integer data type is a non-decimal number between -2147483648 and 2147483647 
 
 
 
-$x = 12.54;
-$xx = (int)$x;
-$x1 = intval($x);
-echo $x1;
+// $x = 12.54;
+// $xx = (int)$x;
+// $x1 = intval($x);
+// echo $x1;
+
+
+// echo __LINE__;
+// echo "<br>";
+// echo __FILE__;
+// echo "<br>";
+// echo __METHOD__;
+
+
+// echo __LINE__;
+// echo "<br>";
+// echo __FILE__;
 
 ?>
 
