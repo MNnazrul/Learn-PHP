@@ -263,6 +263,23 @@ An integer data type is a non-decimal number between -2147483648 and 2147483647 
 // echo "<br>";
 // echo __FILE__;
 
+
+
+
+echo $_SERVER['PHP_SELF'];
+echo "<br>";
+echo $_SERVER['SERVER_NAME'];
+echo "<br>";
+echo $_SERVER['HTTP_HOST'];
+echo "<br>";
+echo $_SERVER['HTTP_REFERER'];
+echo "<br>";
+echo $_SERVER['HTTP_USER_AGENT'];
+echo "<br>";
+echo $_SERVER['SCRIPT_NAME'];
+
+
+
 ?>
 
 </pre>
