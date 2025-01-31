@@ -8,7 +8,8 @@
     <?php
         require_once 'Classes/Car.php';
         $car01 = new Car("Toyota", "Red");
-        echo $car01->vahicleType;
+        echo $car01->$vahicleType;
+        echo "12";
         echo "<br>";
         echo $car01->GetCarInfo();
     ?>

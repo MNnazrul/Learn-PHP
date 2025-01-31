@@ -4,6 +4,7 @@ class Car {
     // properties /Fields
     private $brand;
     private $color;
+    public $vahicleType = "car";
 
     // Constructor
     public function __construct($brand, $color = "none") {
